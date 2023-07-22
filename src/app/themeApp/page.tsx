@@ -1,6 +1,4 @@
-import { NextPage } from "next";
-
-const Colors: NextPage = () => {
+export default function Colors() {
   const colors = [
     {
       name: "Fondo principal",
@@ -29,6 +27,7 @@ const Colors: NextPage = () => {
   ];
 
   return (
+  
     <div className="p-10">
       <h1 className="text-3xl font-bold mb-5">Paleta de Colores</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -46,5 +45,3 @@ const Colors: NextPage = () => {
     </div>
   );
 };
-
-export default Colors;
