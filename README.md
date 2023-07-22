@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ChocoChapin ERP
 
-## Getting Started
+## Descripción del proyecto
 
-First, run the development server:
+ChocoChapin ERP es una solución innovadora de planificación de recursos empresariales diseñada para la industria de dulces en Guatemala, construida con React.js, Next.js, y Yarn.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Requisitos de instalación
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js versión 18.14.2
+- npm versión 9.5.0
+- Yarn
+- Un navegador moderno (se recomienda la última versión de Chrome, Firefox o Safari)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Configuración e instalación
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Instalar Node.js y npm**: Si aún no tienes instalado Node.js y npm, puedes descargarlo desde el [sitio oficial de Node.js](https://nodejs.org/). La instalación de Node.js incluirá npm.
+2. **Verificar la instalación**: Puedes verificar que tengas las versiones correctas de Node.js y npm ejecutando los siguientes comandos en tu terminal:
+    ```bash
+    node -v
+    npm -v
+    ```
+    Deberías ver las versiones "v18.14.2" para Node.js y "9.5.0" para npm.
+3. **Instalar Yarn**: Yarn es nuestro manejador de paquetes. Si aún no tienes Yarn instalado, puedes hacerlo con npm:
+    ```bash
+    npm install -g yarn
+    ```
+4. **Verificar la instalación de Yarn**: Para asegurarte de que Yarn se instaló correctamente, puedes verificar su versión con:
+    ```bash
+    yarn -v
+    ```
+5. **Clonar el repositorio**: Para obtener una copia local del proyecto, puedes clonarlo desde GitHub con el siguiente comando:
+    ```bash
+    git clone https://github.com/jmaritar/choco-chapin-erp.git
+    ```
+6. **Instalar las dependencias**: Navega al directorio del proyecto y ejecuta el siguiente comando para instalar todas las dependencias necesarias:
+    ```bash
+    cd choco-chapin-erp
+    yarn install
+    ```
+7. **Iniciar el servidor de desarrollo**: Finalmente, puedes iniciar el servidor de desarrollo con:
+    ```bash
+    yarn dev
+    ```
+    El proyecto ahora debería estar corriendo en `http://localhost:3000`.
 
-## Learn More
+## Contribuidores
+- Mario Arita (Inventory) [@dev_ja](https://github.com/jmaritar)
+- Nery Lopez (Sales) [@dev_nl](https://github.com/jmaritar)
+- Heidy Chu (Clients) [@dev_hc](https://github.com/jmaritar)
+- Miguel Alvarez (Finance) [@dev_ma](https://github.com/jmaritar)
+- Marvin Martinez (Auth) [@dev_mm](https://github.com/jmaritar)
 
-To learn more about Next.js, take a look at the following resources:
+## Cómo contribuir
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Nos encanta recibir contribuciones. Si estás interesado en mejorar ChocoChapin ERP, por favor lee nuestra [guía de contribución](CONTRIBUTING.md).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Licencia
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](LICENSE)
