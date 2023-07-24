@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Colors from './themeApp/page'
 
 export default function Home() {
   return (
@@ -32,6 +33,13 @@ export default function Home() {
           <p>Encargado: Marvin Martinez - <code>@dev_mm</code></p>
         </div>
       </div>
+
+      <div>
+        <p className='text-center font-bold'>Para mantener una trabajo estetico nos estaremos guiando por una paleta de colores para 
+          procurar el mismo apartado visual en todos los modulos.</p>
+        <Colors/>
+      </div>
+
 
       <div className="mt-10 text-center">
         <p className="text-blue-600">Este es un proyecto orgullosamente guatemalteco para potenciar la industria local.</p>
