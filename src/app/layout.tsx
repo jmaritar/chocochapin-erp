@@ -1,10 +1,9 @@
-import "@/styles/globals.css";
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import Sidebar from "@/components/shared/sidebar";
-import BtnAppBar from "@/components/shared/appBar";
+import '@/styles/globals.css'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import BtnAppBar from '@/components/shared/AppBar'
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'ChocoChapin ERP',
@@ -13,28 +12,21 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children,
+  children
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      
-        <div style={{ display: "flex" }}>
-          
-          <Sidebar />
-          <div
-            style={{
-              flex: "1",
-              marginLeft: "240px", // Ancho del Sidebar
-            }}
-          >
-            <BtnAppBar/>
-            {children}
-          </div>
+
+        <div className='flex '>
+          <BtnAppBar />
+
+          {children}
+
         </div>
       </body>
     </html>
-  );
+  )
 }
