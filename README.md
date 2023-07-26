@@ -30,11 +30,11 @@ ChocoChapin ERP es una solución innovadora de planificación de recursos empres
     ```
 5. **Clonar el repositorio**: Para obtener una copia local del proyecto, puedes clonarlo desde GitHub con el siguiente comando:
     ```bash
-    git clone https://github.com/jmaritar/choco-chapin-erp.git
+    git clone https://github.com/jmaritar/chocochapin-erp.git
     ```
 6. **Instalar las dependencias**: Navega al directorio del proyecto y ejecuta el siguiente comando para instalar todas las dependencias necesarias:
     ```bash
-    cd choco-chapin-erp
+    cd chocochapin-erp
     yarn install
     ```
 7. **Iniciar el servidor de desarrollo**: Finalmente, puedes iniciar el servidor de desarrollo con:
