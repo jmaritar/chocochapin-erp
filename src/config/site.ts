@@ -7,6 +7,7 @@ export const siteConfig: SiteConfig = {
   url: 'https://tx.shadcn.com',
   ogImage: 'https://tx.shadcn.com/og.jpg',
   links: {
-    github: 'https://github.com/shadcn/taxonomy'
+    twitter: 'https://twitter.com/',
+    github: 'https://github.com/jmaritar/choco-chapin-erp'
   }
 }
