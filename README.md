@@ -28,6 +28,16 @@ ChocoChapin ERP es una solución innovadora de planificación de recursos empres
     ```bash
     yarn -v
     ```
+
+  * Error comunes en Windows:
+
+  - Permisos de ejecución: Si tienes problemas con los permisos de ejecución, puedes ejecutar el siguiente comando en PowerShell como administrador:
+    ```bash
+    Set-ExecutionPolicy Unrestricted
+    ```
+
+  Nota: Si tienes problemas con la instalación de Yarn, puedes consultar la [documentación oficial](https://classic.yarnpkg.com/en/docs/install/#mac-stable).    
+
 5. **Clonar el repositorio**: Para obtener una copia local del proyecto, puedes clonarlo desde GitHub con el siguiente comando:
     ```bash
     git clone https://github.com/jmaritar/choco-chapin-erp.git
